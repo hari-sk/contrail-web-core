@@ -3,6 +3,7 @@
  */
  
  /* moving vcon-web.css */
+ 
   
 .project-autoflow {
   overflow: auto;
@@ -973,7 +974,6 @@ a.selectAllLink:hover {
 	color: #393939;
 	font-size: 13px;
 	padding: 5px;
-	overflow-y: auto;
 	word-break:break-all;
 	white-space: normal;
 }
@@ -985,6 +985,7 @@ a.selectAllLink:hover {
 	border: none;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
+  background-color:#DCE3E8;
 	
 }
 .slick-row-detail  .row-fluid, .slick-row-detail .row-fluid [class*="span"] {                                                                                                                             
@@ -1491,7 +1492,7 @@ input.datetimepicker{
 	border-bottom: 1px solid #eee;
 }
 .ui-tabs .ui-tabs-nav{
-	margin: -3px -10px 10px -10px;
+	//margin: -3px -10px 10px -10px;
 	padding: 1px 1px 0 1px;
 }
 .ui-tabs-panel.ui-widget-content {
@@ -2310,4 +2311,23 @@ color: #b94a48;
 }
 .sgSelect2 .select2-results {
     max-height: 400px;
+}
+.ui-widget-content{
+  background:white;
+}
+.widget-box, .ui-tabs-panel.ui-widget-content{
+  padding:10px;
+}
+.ui-tabs-panel .footer-links{
+  padding:5px 10px;
+  float:left;
+}
+.contrail .ui-tabs .ui-tabs-nav li.ui-tabs-active{
+  background-color:white;
+
+
+}
+.contrail .ui-tabs-panel{
+  height:230px;
+  overflow:auto;
 }
